@@ -14,7 +14,7 @@ We are using the folliwing third party modules:
 There are 5 separate Python files that each produce different charts:
 1) yuxin_code.py
 2) MBA_analysis_Henson_Le.py
-3) .
+3) haochen.py
 4) .
 5) .
 
@@ -27,3 +27,9 @@ MBA_analysis_Henson_Le.py:
 - All you have to do is make sure the filename called by "file_path" matches your file name.
 - Click run and your charts should be generated!
 
+haochen.py:
+- Generates Violin plots for gender-conditional distributions of GPA, GMAT and work experience
+- Generates Violin plots for race-conditional distributions of GPA, GMAT and work experience
+- Generates histograms for gender-conditional admission counts and rates
+- Generates histograms for race-conditional admission counts and rates
+- Generates GPA vs. GMAT linear model plot, and its associated residal plot and GMAT-conditional GPA variance plot.
