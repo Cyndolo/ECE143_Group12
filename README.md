@@ -15,7 +15,7 @@ There are 5 separate Python files that each produce different charts:
 1) yuxin_code.py
 2) MBA_analysis_Henson_Le.py
 3) haochen.py
-4) .
+4) Zheng_code.py
 5) .
 
 yuxin_code.py:
@@ -33,3 +33,12 @@ haochen.py:
 - Generates histograms for gender-conditional admission counts and rates
 - Generates histograms for race-conditional admission counts and rates
 - Generates GPA vs. GMAT linear model plot, and its associated residal plot and GMAT-conditional GPA variance plot.
+
+Zheng_code.py:
+- Generates count plot for admission statistics
+- Generates the count plot of working experience for the applicants in the top 4 working industries: Nonprofit, Consulting, Technology and PE/VC.
+- Groups applicants by working experience and plots working experience against admission rate. Note that samples with working experience less than 2 years or more than 8 years are droped as the sample numbers are too small.
+- Modify the filename in the read_csv function accordingly to run the code successfully.
+
+  
+
