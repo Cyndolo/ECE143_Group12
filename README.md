@@ -5,8 +5,8 @@ We are using the folliwing third party modules:
 - Pandas
 - Matplotlib
 - Seaborn
-- sklean
-- xboost
+- sklearn
+- xgboost
 - os
 - statsmodels.api
 - scipy.stats
