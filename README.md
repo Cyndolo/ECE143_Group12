@@ -7,7 +7,7 @@ We are using the folliwing third party modules:
 - Seaborn
 - sklean
 - xboost
-- importos
+- os
 - statsmodels.api
 - scipy.stats
 
