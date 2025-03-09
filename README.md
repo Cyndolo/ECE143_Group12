@@ -19,7 +19,11 @@ There are 5 separate Python files that each produce different charts:
 5) .
 
 yuxin_code.py:
-fdfdfdf
+- Handling missing values, encoding categorical variables, standardizing numerical features, and splitting into training and testing sets.
+- Various classification models, including Random Forest, XGBoost, Decision Tree, KNN, and others, are trained to predict MBA admissions, with accuracy scores used for evaluation.
+- Key features are selected using Random Forest importance, and models are retrained with the top five features for improved efficiency.
+- A stacking ensemble combines multiple models, using Logistic Regression as the meta-classifier for enhanced predictive performance.
+- Regression models analyze relationships between GPA, GMAT, work experience, and admission probability, evaluated with MSE and R² scores.
 
 MBA_analysis_Henson_Le.py:
 - This file generates three spider/radar charts displaying the distribution of work industries each major in the dataset.
