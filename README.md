@@ -16,7 +16,7 @@ There are 5 separate Python files that each produce different charts:
 2) MBA_analysis_Henson_Le.py
 3) haochen.py
 4) Zheng_code.py
-5) .
+5) Aditya_code.py
 
 yuxin_code.py:
 - Handling missing values, encoding categorical variables, standardizing numerical features, and splitting into training and testing sets.
@@ -44,5 +44,10 @@ Zheng_code.py:
 - Groups applicants by working experience and plots working experience against admission rate. Note that samples with working experience less than 2 years or more than 8 years are droped as the sample numbers are too small.
 - Modify the filename in the read_csv function accordingly to run the code successfully.
 
-  
 
+Aditya_code.py:
+- Loads the dataset MBA.csv, cleaning the work_industry column by stripping whitespace and replacing missing values with 'Unknown'.
+- Counts the number of applicants per industry and organizes the data into a structured DataFrame for visualization.
+- Generates a bar plot displaying the distribution of MBA applicants by work industry using Seaborn.
+- Adds numerical labels to each bar for better data interpretation.
+- Displays the final plot using Matplotlib, showing the number of applicants in each industry.
